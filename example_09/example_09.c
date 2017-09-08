@@ -1,0 +1,1 @@
+#include <stdio.h>int main(){	int a = 1;	float b = 2.1;	int *c = &a;	printf("%d\t\n %x\n %0\n %f\t %2.3f\n *.*\n %e\n %p\n %g\n", a, a, a, b, b, b, b, c, b);	//printf("%d\n\t%d %d\n %d %d\t\b%d\n", a, b, c, a, b, c);	return 0;}
